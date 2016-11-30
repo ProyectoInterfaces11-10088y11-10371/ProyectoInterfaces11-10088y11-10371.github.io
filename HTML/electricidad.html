@@ -1,0 +1,133 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/styles2.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/electricidad.css">
+  <script src="js/electricidad.js"></script>
+</head>
+<body>
+ <div class = header>
+  <div class = botonAMenu>
+    <div class = navegador>
+      <div class="contenido">
+        <a href="index.html">
+          <i id="backtomenu" class="fa fa-bars fa-4x" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class = navegador>
+    <div class="contenido">
+      <img src="assets/Electricidad.png"> Electricidad </i>
+    </div>
+  </div>
+ </div>
+
+  <div class="margenSuperior">
+  </div>
+  <div class="centroPantalla">
+    <div class="bordeizq">
+    </div>
+    <div class="mapa">
+      <div class="hilera">
+        <div class="habitacion">
+          <div class="estadoInexistente">
+          </div>
+        </div>
+        <div class="habitacion" onmouseover=showSubMenu(1) onmouseout= hideSubMenu(1)>
+          <div class="EstadoNulo" id= "Cuarto">
+            Cuarto<br>500 KVA
+          </div>
+          <div class = "menuOculto" id = "submenu1">
+            <div class = "botonArriba" onclick="Monetario(this,1)">
+            </div>
+            <div class = "botonAbajo" onclick="Limite(this,1)">
+            </div>
+          </div>
+        </div>
+        <div class="habitacion" onmouseover=showSubMenu(2) onmouseout= hideSubMenu(2)>
+          <div class="EstadoNulo" id= "Banno2">
+            Baño 2<br>250 KVA<br>Max: 400 KVA
+          </div>
+          <div class = "menuOculto" id = "submenu2">
+            <div class = "botonArriba" onclick="Monetario(this,2)">
+            </div>
+            <div class = "botonAbajo" onclick="Limite(this,2)">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hilera">
+        <div class="habitacion" onmouseover=showSubMenu(3) onmouseout= hideSubMenu(3)>
+          <div class="EstadoNulo" id= "Cocina">
+            Cocina<br>500 KVA
+          </div>
+          <div class = "menuOculto" id = "submenu3">
+            <div class = "botonArriba" onclick="Monetario(this,3)">
+            </div>
+            <div class = "botonAbajo" onclick="Limite(this,3)">
+            </div>
+          </div>
+        </div>
+        <div class="habitacion" onmouseover=showSubMenu(4) onmouseout= hideSubMenu(4)>
+          <div class="EstadoNulo" id= "Sala">
+            Sala<br>500 KVA
+          </div>
+          <div class = "menuOculto" id = "submenu4">
+            <div class = "botonArriba" onclick="Monetario(this,4)">
+            </div>
+            <div class = "botonAbajo" onclick="Limite(this,4)">
+            </div>
+          </div>
+        </div>
+        <div class="habitacion" onmouseover=showSubMenu(5) onmouseout= hideSubMenu(5)>
+          <div class="EstadoNulo" id= "Banno">
+            Baño<br>250 KVA<br>Max: 400 KVA
+          </div>
+          <div class = "menuOculto" id = "submenu5">
+            <div class = "botonArriba" onclick="Monetario(this,5)">
+            </div>
+            <div class = "botonAbajo" onclick="Limite(this,5)">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hilera">
+        <div class="habitacion">
+          <div class="estadoInexistente">
+          </div>
+        </div>
+        <div class="habitacion" onmouseover=showSubMenu(6) onmouseout= hideSubMenu(6)>
+          <div class="EstadoNulo" id= "Entrada">
+            Entrada<br>150 KVA<br>Max: 200 KVA
+          </div>
+          <div class = "menuOculto" id = "submenu6">
+            <div class = "botonArriba" onclick="Monetario(this,6)">
+            </div>
+            <div class = "botonAbajo" onclick="Limite(this,6)">
+            </div>
+          </div>
+        </div>
+        <div class="habitacion">
+          <div class="estadoInexistente">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bordeder">
+  </div>
+</div>
+<div class="margenInferior">
+</div>
+</div>
+</body>
+</html>

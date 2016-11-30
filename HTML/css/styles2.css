@@ -1,0 +1,94 @@
+.hilera a{
+    color: inherit;
+    text-decoration: none;
+}
+.centroPantalla{
+  width: 100%;
+  height: 50%;
+}
+.bordeizq{
+  float:left;
+  width: 25%;
+  height: 100%;
+}
+
+.mapa{
+
+  float:left;
+  width: 50%;
+  height: 100%;
+}
+.hilera{
+
+  float:left;
+  width: 100%;
+  height: 33%;
+}
+
+.habitacion{
+  padding: 5px 5px 5px 5px;
+  width:  33%;
+  height: 100%;
+  float:left;
+
+}
+.estadoEncendido{
+  border-style:solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  top: 50%;
+  text-align: center;
+  background: -webkit-linear-gradient(-90deg, rgba(169,213,215,255), rgba(231,236,238,255)); /* For Safari 5.1 to 6.0 */
+  background: linear-gradient(-90deg, rgba(169,213,215,255), rgba(231,236,238,255)); /* Standard syntax */
+}
+.estadoInexistente{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  top: 50%;
+  text-align: center;
+}
+.estadoApagado{
+  border-style:solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  top: 50%;
+  text-align: center;
+  background: -webkit-linear-gradient(-90deg, rgba(85,129,133,255),rgba(33,67,69,255)); /* For Safari 5.1 to 6.0 */
+  background: linear-gradient(-90deg, rgba(85,129,133,255), rgba(33,67,69,255)); /* Standard syntax */
+}
+.EstadoNulo{
+  border-style:solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  top: 50%;
+  text-align: center;
+  background: -webkit-linear-gradient(-30deg, rgba(231,236,238,255),rgba(169,213,215,255)); /* For Safari 5.1 to 6.0 */
+  background: linear-gradient(-30deg, rgba(231,236,238,255), rgba(169,213,215,255)); /* Standard syntax */
+}
+.bordeder{
+  float:left;
+  width: 25%;
+  height: 100%;
+}
+.margenInferior{
+  height: 90px;
+}
+.menuOculto{
+  display:none;
+  background-repeat: no-repeat;
+  z-index: 100;
+  position:relative;
+  width:320px;
+  height:100px;
+  top: -90%;
+  left: 90%;
+}
+

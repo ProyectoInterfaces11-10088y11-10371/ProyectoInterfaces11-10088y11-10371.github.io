@@ -1,0 +1,95 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/styles2.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/luces.js"></script>
+</head>
+<body>
+ <div class = header>
+  <div class = navegador>
+    <div class="contenido">
+      <a href="index.html">
+        <i id="backtomenu" class="fa fa-bars fa-4x" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+  <div class = navegador>
+    <div class="contenido">
+      <img src="assets/Luz.png"> Luz </i>
+    </div>
+  </div>
+ </div>
+<div class = "container">
+  <div class="margenSuperior">
+  </div>
+  <div class="centroPantalla">
+    <div class="bordeizq">
+    </div>
+    <div class="mapa">
+        <div class="hilera">
+            <div class="habitacion">
+                 <div class="estadoInexistente">
+                 </div>
+            </div>
+            <div class="habitacion">
+                 <div class="estadoEncendido" id="Cuarto" onclick="EncenderApagar(this)">
+                   Cuarto<br>Encendido
+                 </div>
+            </div>
+            <div class="habitacion">
+               <div class="estadoApagado" id="Banno2" onclick="EncenderApagar(this)">
+                 Baño 2<br>Apagado
+               </div>
+            </div>
+        </div>
+        <div class="hilera">
+            <div class="habitacion">
+               <div class="estadoApagado" id="Cocina" onclick="EncenderApagar(this)">
+                 Cocina<br>Apagado
+               </div>
+            </div>
+            <div class="habitacion">
+               <div class="estadoEncendido" id="Sala" onclick="EncenderApagar(this)">
+                 Sala<br>Encendido
+               </div>
+            </div>
+            <div class="habitacion">
+               <div class="estadoApagado" id="Banno" onclick="EncenderApagar(this)">
+                 Baño<br>Apagado
+               </div>
+            </div>
+        </div>
+        <div class="hilera">
+            <div class="habitacion">
+               <div class="estadoInexistente">
+               </div>
+            </div>
+            <div class="habitacion">
+               <div class="estadoApagado"  id="Entrada" onclick="EncenderApagar(this)">
+                 Entrada<br>Apagado
+               </div>
+            </div>
+            <div class="habitacion">
+               <div class="estadoInexistente">
+               </div>
+            </div>
+        </div>
+    </div>
+    <div class="bordeder">
+    </div>
+  </div>
+  <div class="margenInferior">
+  </div>
+</div>
+</div>
+</body>
+
+</html>

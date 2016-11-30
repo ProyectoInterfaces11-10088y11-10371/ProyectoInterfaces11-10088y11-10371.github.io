@@ -1,0 +1,86 @@
+.estadistica{
+  position:relative;
+  height:100%;
+  width:100%;
+}
+#fondo{
+  position:relative;
+  height:100%;
+  width:34%;
+  float:left;
+}
+#pestañas{
+  position:relative;
+  width:20%;
+  height:100%;
+  float:left;
+}
+#graficabasura{
+  position:absolute;
+  top:1%;
+  left:2%;
+}
+#graficareciclaje{
+  position:absolute;
+  top:1%;
+  left:2%;
+}
+#imagenBasura{
+  position:relative;
+  left:25%;
+}
+#dropdownLavaplatos{
+  position:absolute;
+  top: 5%;
+  left:10%;
+}
+#cadaLavaplatos{
+  padding: 0px 10px;
+  
+  float:left;
+}
+#fondoazul{
+  position:relative;
+  float: left;
+}
+#espacioblanco{
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+#botonPestañaR{
+  position:absolute;
+  left:0px;
+  
+}
+#botonPestañaB{
+  position:absolute;
+  left:0px;
+  top:115px;
+}
+#botonPestañaB2{
+  position:absolute;
+  left:0px;
+  top:180px;
+}
+#reciclarPestaña{
+  position:relative;  
+}
+#reciclajePestaña{
+  position:relative;
+}
+#basuraPestaña{
+  position:absolute;
+  top:18%;
+}
+#basuraPestaña2{
+  position:absolute;
+  top:28%;
+  
+}
+
+.Dropdown{
+  position:absolute;
+  left:30%;
+  top:15%;
+}

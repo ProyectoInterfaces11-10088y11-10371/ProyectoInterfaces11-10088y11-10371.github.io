@@ -1,0 +1,62 @@
+#apuntador{
+  position:absolute;
+  top: 10px;
+  left: 100px;
+}
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 3px;
+} 
+.PLmargenSuperior{
+  height: 25%; 
+  width: 100%;
+}
+.PLmargenInferior{
+  height: 25%; 
+  width: 100%;
+}
+.PLcentroPantalla{
+  display: flex;
+  align-items: center;
+  height: 40%; 
+  width: 100%;
+}
+.descripcion{
+  position:relative;
+  float:left
+  height: 100%; 
+  width: 20%;
+}
+.Slider{
+  height: 100%; 
+  width: 80%;
+}
+.opciones{
+  top: 45px;
+  float:left;
+  height: 100%; 
+  width: 25%;
+}
+.titulo{
+  position:relative;
+  top: 30%;
+}
+.gráfica{
+  height: 10%; 
+  width: 100%;
+}
+.nombres{
+  display: flex;
+  text-align: center;
+  height: 50%; 
+  width: 100%;
+}
+.cursor{
+  position:relative;
+}
+
