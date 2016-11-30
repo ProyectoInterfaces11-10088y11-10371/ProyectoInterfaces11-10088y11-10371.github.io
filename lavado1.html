@@ -1,0 +1,99 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/lavado.css">
+  <script src="js/botones.js"></script>
+  <script src="js/lavado.js"></script>
+</head>
+<body>
+  
+  <div class = header>
+  <div class = navegador>
+    <div class="contenido">
+      <a href="index.html">
+        <i id="backtomenu" class="fa fa-bars fa-4x" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+  <div class = navegador>
+    <div class="contenido">
+      <a href="ropa.html">
+      <img src="assets/ropa.png"> Ropa /</i>
+      </a>
+    </div>
+  </div>
+  <div class = navegador>
+    <div class="contenido">
+      <img src="assets/lavado.png"> Lavado </i>
+    </div>
+  </div>
+  <div class = rightmenu>
+    <div class="contenidoDropdown">
+      <select name="frecuencia" id="frecuencia"> 
+      <option value="1d">1 dia</option>
+      <option value="2d">2 dias</option>
+      <option value="3d">3 dias</option>
+      <option value="4d">4 dias</option>
+      <option value="5d">5 dias</option>
+      <option value="6d">6 dias</option>
+      <option value="7d">7 dias</option>
+      <option value="2s">2 semanas</option>
+      <option value="3s">3 semanas</option>
+      <option value="1m">1 mes</option>
+      </select>
+
+      <p id="cada"> cada </p>
+      
+      <select name="veces" id="veces"> 
+      <option value="1v">1 vez</option>
+      <option value="2v">2 veces</option>
+      <option value="3v" selected>3 veces</option>
+      </select>
+
+    </div>
+  </div>
+  
+  </div>
+
+  <div class = "container">
+
+    <div class="section">
+      
+        <div class="row">
+          <div class="column1">
+            <div class="imagen">
+                <img id="tamanocarga" src="assets/tamanocargasinaguja.png" onclick="moverAguja()"></img>
+                <img id="aguja" src="assets/tamanocargaaguja.png" onclick="moverAguja()"></img>
+            </div>
+
+          </div>
+          <div class="column2">
+            <br></br>
+            <br></br>
+            <br></br>
+            <ul class="pager">
+              <!--li class="previous"><a href="#"><img src="page-back.png"></i></a></li-->
+              <li class="next"><a href="lavado2.html" ><img src="assets/page-next.png"></i></a></li>
+            </ul>
+            
+          </div>
+        
+        </div>
+        <div class="row">
+           <img id="image" src="assets/400wtts.png"></i>
+           <button onclick="changeImage400Wtts();"><img id="showexpense" src="assets/dollarbutton.png"></i></button>
+        </div>
+        
+      
+    </div>
+  </div>
+
+</body>

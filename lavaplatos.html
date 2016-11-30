@@ -1,0 +1,64 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/estiloLavaplatos.css">
+  <script src="js/botones.js"></script>
+  <script src="js/hover.js"></script>
+</head>
+<body>
+ <div class = header>
+  <div class = navegador>
+    <div class="contenido">
+      <a href="index.html">
+        <i id="backtomenu" class="fa fa-bars fa-4x" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+  <div class = navegador>
+    <div class="contenido">
+      <img src="assets/Platos.png"> Platos </i>
+    </div>
+  </div>
+</div>
+<div class = "container">
+  <div class = "margenSuperior">
+  </div>
+  <div class = "estadistica">
+    <div id="espacioblanco"></div>
+    
+    <div id="fondo">
+      <img id="fondoazul" src="assets/fondoazul.png"></img>
+
+      <img id="wttslts" src="assets/400wtts10lts.png"></i>
+      <button id="showexpensebutton" onclick="changeImageWttsLtsDlrs();"><img id="showexpense" src="assets/dollarbutton.png"></i></button>
+   
+      <!--div id="lavaplatosTexto">Lavaplatos</div>
+      <div id="lavavajillasTexto">Lavavajillas</div-->
+      <div class="Dropdown" id="dropdownLavaplatos">
+        <p id="cadaLavaplatos"> Cada: </p>
+        <select name="frecuenciaLavaplatos" id="frecuenciaLavaplatos"> 
+          <option value="1d">6 horas</option>
+          <option value="2d">8 horas</option>
+          <option value="3d">12 horas</option>
+          <option value="4d">24 horas</option>
+        </select>
+      </div>
+    </div>
+    <div id="pestañas">
+      <button id="botonPestañaLP" onclick="pestañaLavaplatos();"><img id="lavaplatosPestaña" src="assets/lavaplatospestaña.png"></img></button>
+      <button id="botonPestañaLV" onclick="pestañaLavavajillas();"><img id="lavavajillasPestaña" src="assets/lavavajillaspestaña.png"></img></button>
+    </div>
+  </div>
+</div>
+  
+</body>
+
+</html>
