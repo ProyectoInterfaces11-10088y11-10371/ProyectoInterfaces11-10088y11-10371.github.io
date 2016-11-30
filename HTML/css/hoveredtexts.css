@@ -1,9 +1,0 @@
-#lavaplatosTexto {
-    opacity: 0;
-    width: 500px;
-    height:500px;
-}
-
-#lavaplatosTexto:hover {
-    opacity: 1;
-}
