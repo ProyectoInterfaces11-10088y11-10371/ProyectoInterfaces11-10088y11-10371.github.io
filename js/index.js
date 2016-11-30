@@ -1,15 +1,15 @@
 
-$(document).ready(function() {
-  $(".trigger").click(function() {
-    $(".menu").toggleClass("active"); 
+jQuery(document).ready(function() {
+  jQuery(".trigger").click(function() {
+    jQuery(".menu").toggleClass("active"); 
   });
 });
 
-$('input').toggle(
+jQuery('input').toggle(
     function(){
-        $('img').attr('src', '10dollars.png');
+        jQuery('img').attr('src', '10dollars.png');
     }, function() {
-        $('img').attr('src', '10lts');
+        jQuery('img').attr('src', '10lts');
     }
 );
 
