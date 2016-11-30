@@ -1,4 +1,3 @@
-
 jQuery(document).ready(function() {
   jQuery(".trigger").click(function() {
     jQuery(".menu").toggleClass("active"); 
