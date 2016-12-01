@@ -1,14 +1,14 @@
-jQuery(document).ready(function() {
-  jQuery(".trigger").click(function() {
-    jQuery(".menu").toggleClass("active"); 
+$(document).ready(function() {
+  $(".trigger").click(function() {
+    $(".menu").toggleClass("active"); 
   });
 });
 
-jQuery('input').toggle(
+$('input').toggle(
     function(){
-        jQuery('img').attr('src', '10dollars.png');
+        $('img').attr('src', '10dollars.png');
     }, function() {
-        jQuery('img').attr('src', '10lts');
+        $('img').attr('src', '10lts');
     }
 );
 
